@@ -25,8 +25,8 @@ function Projects() {
               isBlog={false}
               title="Full Stack Ecommerce Website"
               description=" MERN-based Ecommerce Website with an Admin Panel, offering users an intuitive shopping experience. Features include user authentication, product management, and secure payments. The admin panel allows easy item addition, editing, and deletion."
-              ghLink="https://github.com/incruder1/ecommerce-fullStack"
-              demoLink="https://easy-gray-bear-belt.cyclic.app/"
+              ghLink="https://github.com/incruder1/Ecommerce-Application"
+              demoLink="https://drab-gray-cormorant-tutu.cyclic.app/"
             />
           </Col>
 
