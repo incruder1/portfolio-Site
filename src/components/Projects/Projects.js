@@ -23,8 +23,8 @@ function Projects() {
              <ProjectCard
               imgPath={notion}
               isBlog={false}
-              title="Notion Application Clone"
-              description="Notion is a  Note taking application boasting real-time database functionality and a user-friendly editor. It supports infinite children documents, Trash-Can features for soft deletes and robust authentication. "
+              title="Note taking Application"
+              description="Created a clone of Notion which provides a boasting real-time database functionality and a user-friendly editor. It supports infinite children documents, Trash-Can features for soft deletes and robust authentication. "
               ghLink="https://github.com/incruder1/Notion-Clone"
               demoLink="https://notion-clone-incruder1.vercel.app/"
             />
