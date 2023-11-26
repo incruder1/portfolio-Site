@@ -24,7 +24,7 @@ function Projects() {
               imgPath={notion}
               isBlog={false}
               title="Notion Application Clone"
-              description="Notion is a versatile application boasting real-time database functionality and a user-friendly editor akin to Notion's style. Offering both light and dark modes, it supports infinite children documents, trash can features for soft deletes, and robust authentication. Users benefit from a fully collapsible sidebar, document cover images, and file recovery options, enhancing productivity and organization. "
+              description="Notion is a  Note taking application boasting real-time database functionality and a user-friendly editor. It supports infinite children documents, Trash-Can features for soft deletes, and robust authentication. A fully collapsible sidebar, document cover images. "
               ghLink="https://github.com/incruder1/Notion-Clone"
               demoLink="https://notion-clone-incruder1.vercel.app/"
             />
