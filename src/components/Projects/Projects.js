@@ -6,7 +6,7 @@ import leaf from "../../Assets/Projects/6.png";
 import editor from "../../Assets/Projects/5.png";
 import ecommerce from "../../Assets/Projects/1.png"; 
 import two from "../../Assets/Projects/2.png";
-
+import notion from "../../Assets/Projects/notion.png"; 
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -20,6 +20,14 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
+             <ProjectCard
+              imgPath={notion}
+              isBlog={false}
+              title="Notion Application Clone"
+              description="Notion is a versatile application boasting real-time database functionality and a user-friendly editor akin to Notion's style. Offering both light and dark modes, it supports infinite children documents, trash can features for soft deletes, and robust authentication. Users benefit from a fully collapsible sidebar, document cover images, and file recovery options, enhancing productivity and organization. "
+              ghLink="https://github.com/incruder1/Notion-Clone"
+              demoLink="https://notion-clone-incruder1.vercel.app/"
+            />
             <ProjectCard
               imgPath={ecommerce}
               isBlog={false}
