@@ -19,7 +19,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+        <Col md={4} className="project-card">
              <ProjectCard
               imgPath={notion}
               isBlog={false}
@@ -28,6 +28,8 @@ function Projects() {
               ghLink="https://github.com/incruder1/Notion-Clone"
               demoLink="https://notion-clone-incruder1.vercel.app/"
             />
+            </Col>
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ecommerce}
               isBlog={false}
