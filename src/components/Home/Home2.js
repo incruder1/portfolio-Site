@@ -24,13 +24,13 @@ function Home2() {
               <br />
               <br />I am fluent in Languages like
               <i>
-                <b className="purple"> C++, Javascript. </b>
+                <b className="purple"> C/C++, HTML, CSS, Javascript. </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Apps and exciting projects 
+                <b className="purple">Web Applications and Exciting Projects 
                 {/* </b> and
                 also in areas related to{" "}
                 <b className="purple">
@@ -86,6 +86,7 @@ function Home2() {
                 >
                   <FaLinkedinIn />
                 </a>
+                    
               </li>
               
             </ul>
