@@ -19,14 +19,18 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I was drawn to programming by its challenges, thrill, and the gratification of turning lines of code into impactful solutions.🙂            
-               
+            I was drawn to programming by its challenges, thrill, and the gratification of turning lines of code into impactful solutions.🙂<br />
+            As an enthusiastic and dedicated open-source advocate, I possess a strong foundation in computer science and a diverse skill set that allows me to adapt to various programming languages. 
+            <br /> 
+            <b className="purple"> My language-agnostic mindset</b>, combined with a proactive learning attitude and effective problem-solving skills, enables me to thrive in collaborative environments.
+            <br /> 
+             I am committed to continuous growth and am eager to make a meaningful impact in the field of software engineering. 
               <br />
-              <br />I am fluent in Languages like
-              <i>
+              {/* <br />I am fluent in Languages like */}
+              {/* <i>
                 <b className="purple"> C++, Javascript. </b>
-              </i>
-              <br />
+              </i> */}
+              {/* <br /> */}
               <br />
               My field of Interest's are building new &nbsp;
               <i>
