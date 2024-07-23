@@ -18,7 +18,7 @@ function About() {
             style={{
               justifyContent: "center",
               paddingTop: "30px",
-              paddingBottom: "50px",
+              paddingBottom: "51px",
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
