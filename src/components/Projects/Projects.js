@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/6.png"; 
 import editor from "../../Assets/Projects/5.png";
 import ecommerce from "../../Assets/Projects/1.png"; 
-import notion from "../../Assets/Projects/Notion.png"; 
+import notion from "../../Assets/Projects/notion.png"; 
 import two from "../../Assets/Projects/2.png";
 
 function Projects() {
