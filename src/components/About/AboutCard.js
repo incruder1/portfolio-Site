@@ -9,8 +9,8 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Dev Johri </span>
-            from <span className="purple"> Moradabad, Uttar Pradesh, India.</span>
-            <br /> I am a final year student pursuing an Integrated BTech IT and MBA at ABV-IIITM Gwalior.
+            from <span className="purple"> Ghaziabad,Uttar Pradesh, India.</span>
+            <br /> I am <span className="purple">24</span>  Batch Integrated Btech Grad From IIIT, Gwalior.
             <br />
             {/* Additionally, I am currently searching as a software developer at
             Juspay. */}
@@ -20,20 +20,20 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games 🎮 
+              <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Reading History 📜
+              <ImPointRight /> Reading History
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling🚀
+              <ImPointRight /> Travelling
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Embrace the challenges of today's code, for they are the stepping stones to tomorrow's innovation!"{" "}
+            "“Any sufficiently advanced technology is indistinguishable from magic"{" "}
           </p>
-          <footer className="blockquote-footer">anonymous </footer>
+          <footer className="blockquote-footer"> Arthur C. Clarke </footer>
         </blockquote>
       </Card.Body>
     </Card>

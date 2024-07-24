@@ -5,8 +5,9 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/6.png"; 
 import editor from "../../Assets/Projects/5.png";
 import ecommerce from "../../Assets/Projects/1.png"; 
-import two from "../../Assets/Projects/2.png";
 import notion from "../../Assets/Projects/notion.png"; 
+import two from "../../Assets/Projects/2.png";
+
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -20,23 +21,26 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
-             <ProjectCard
+            <ProjectCard
               imgPath={notion}
               isBlog={false}
-              title="Note taking Application"
-              description="Created a clone of Notion which provides a boasting real-time database functionality and a user-friendly editor. It supports infinite children documents, Trash-Can features for soft deletes and robust authentication. "
+              title="Notion Note Making Application"
+              description=" Implemented real-time database sync, dynamic light/dark mode, and secure
+authentication and enabled efficient file management with upload, delete, and replace
+functionalities. Engineered features such as infinite nested documents and publishing to the
+web. Integrated trash can for soft deletes and recovery of deleted files "
               ghLink="https://github.com/incruder1/Notion-Clone"
               demoLink="https://notion-clone-incruder1.vercel.app/"
             />
-            </Col>
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ecommerce}
               isBlog={false}
               title="Full Stack Ecommerce Website"
               description=" MERN-based Ecommerce Website with an Admin Panel, offering users an intuitive shopping experience. Features include user authentication, product management, and secure payments. The admin panel allows easy item addition, editing, and deletion."
-              ghLink="https://github.com/incruder1/Ecommerce-Application"
-              demoLink="https://drab-gray-cormorant-tutu.cyclic.app/"
+              ghLink="https://github.com/incruder1/ecommerce-fullStack"
+              demoLink="https://ecommerce-application-z5pi.onrender.com/"
             />
           </Col>
 
