@@ -2,11 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/6.png"; 
+import leaf from "../../Assets/Projects/6.png";
 import editor from "../../Assets/Projects/5.png";
-import ecommerce from "../../Assets/Projects/1.png"; 
-import notion from "../../Assets/Projects/notion.png"; 
+import ecommerce from "../../Assets/Projects/1.png";
+import notion from "../../Assets/Projects/notion.png";
 import two from "../../Assets/Projects/2.png";
+import img1 from "../../Assets/Projects/img1.png";
+import img2 from "../../Assets/Projects/img2.png";
 
 function Projects() {
   return (
@@ -20,17 +22,37 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={img1}
+              isBlog={false}
+              title="Module Mapper"
+              description="developed a tool that enables developers to efficiently scan codebases from any branch, GitHub repository, or local folder, generating visual representations of the code structure and project dependencies."
+              ghLink="https://github.com/incruder1/module-mapper"
+              ytLink="https://www.youtube.com/watch?v=T3P_jchsP-0"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={img2}
+              isBlog={false}
+              title="Patient Management System"
+              description="Comprehensive patient management system that streamlines the appointment booking process for patients while providing administrators with efficient tools to manage, confirm, and cancel appointments."
+              ghLink="https://github.com/incruder1/CarePulse--Patient-Management-System"
+              demoLink="https://pns-kajfovnsa-incruder1s-projects.vercel.app/"
+              ytLink="https://www.youtube.com/watch?v=K9ZS_99K9h0"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={notion}
               isBlog={false}
               title="Notion Note Making Application"
-              description=" Implemented real-time database sync, dynamic light/dark mode, and secure
-authentication and enabled efficient file management with upload, delete, and replace
-functionalities. Engineered features such as infinite nested documents and publishing to the
-web. Integrated trash can for soft deletes and recovery of deleted files "
+              description=" Implemented real-time database sync, dynamic light/dark mode, and secure authentication and enabled efficient file management with upload, delete, and replace functionalities."
               ghLink="https://github.com/incruder1/Notion-Clone"
               demoLink="https://notion-clone-incruder1.vercel.app/"
+              ytLink="https://www.youtube.com/watch?v=-L2nR86k4Dk&feature=youtu.be"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -51,7 +73,6 @@ web. Integrated trash can for soft deletes and recovery of deleted files "
               title="Youtube Bookmark"
               description="Chrome extension for streamlined YouTube video bookmarking. It simplifies the process of saving and managing favorite videos, enhancing user browsing experience. Developed with JavaScript"
               ghLink="https://github.com/incruder1/Youtube-Bookmark-Chrome-Extension"
-             
             />
           </Col>
 
@@ -62,7 +83,6 @@ web. Integrated trash can for soft deletes and recovery of deleted files "
               title="VideoChatApp-WebRTC"
               description="I designed a real-time video calling application using Socket.IO and WebRTC, enabling seamless video communication.Providing users with a reliable platform for virtual meetings and collaboration."
               ghLink="https://github.com/incruder1/VideoChatApp-WebRTC.git"
-                            
             />
           </Col>
 
@@ -73,11 +93,8 @@ web. Integrated trash can for soft deletes and recovery of deleted files "
               title="FrontEnd Ecommerce Website-Strapi"
               description="creating responsive, visually appealing online shopping platforms. It emphasizes user experience, intuitive navigation, and dynamic product displays, delivering an engaging and efficient retail interface.."
               ghLink="https://github.com/incruder1/Ecommerce-App-frontend-/tree/main"
-              
             />
           </Col>
-
-           
         </Row>
       </Container>
     </Container>
