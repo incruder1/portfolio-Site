@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Dev Johri </span>
             from <span className="purple"> Ghaziabad,Uttar Pradesh, India.</span>
-            <br /> I am <span className="purple">24</span>  Batch Integrated Btech Grad From IIIT, Gwalior.
+            <br /> I am <span className="purple">2024</span>  Batch <span className="purple">Btech</span> Grad From IIIT, Gwalior.
             <br />
             {/* Additionally, I am currently searching as a software developer at
             Juspay. */}
