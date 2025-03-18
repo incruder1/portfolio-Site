@@ -42,7 +42,7 @@ function Projects() {
               title="AI Mock Interview Helper "
               description="This is an AI-powered mock interview platform designed to help job seekers practice and improve their interview skills. The platform includes a video recording feature, a timer, and a feedback system that provides users with a detailed analysis of their performance."
               ghLink="https://github.com/incruder1/InterviewHelper"
-              ytLink="https://interview-helper-iota.vercel.app/"
+              demoLink="https://interview-helper-iota.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
