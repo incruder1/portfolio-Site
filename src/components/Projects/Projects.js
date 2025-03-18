@@ -9,7 +9,8 @@ import notion from "../../Assets/Projects/notion.png";
 import two from "../../Assets/Projects/2.png";
 import img1 from "../../Assets/Projects/img1.png";
 import img2 from "../../Assets/Projects/img2.png";
-
+import globetrotter from "../../Assets/Projects/globetrotter.png"
+import interview from "../../Assets/Projects/interview.png"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -22,6 +23,28 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={globetrotter}
+              isBlog={false}
+              title="Globetrotter Game"
+              description="full-stack Web app designed as a travel guessing game where users guess destinations based on cryptic clues. The app includes AI-generated datasets, backend storage, scoring, animations, and a 'Challenge a Friend' feature."
+              ghLink="https://github.com/incruder1/Globetrotter"
+              demoLink="https://globetrotter-84sf.onrender.com/"
+            />
+          </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={interview}
+              isBlog={false}
+              title="AI Mock Interview Helper "
+              description="This is an AI-powered mock interview platform designed to help job seekers practice and improve their interview skills. The platform includes a video recording feature, a timer, and a feedback system that provides users with a detailed analysis of their performance."
+              ghLink="https://github.com/incruder1/InterviewHelper"
+              ytLink="https://interview-helper-iota.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={img1}
@@ -59,8 +82,8 @@ function Projects() {
             <ProjectCard
               imgPath={ecommerce}
               isBlog={false}
-              title="Full Stack Ecommerce Website"
-              description=" MERN-based Ecommerce Website with an Admin Panel, offering users an intuitive shopping experience. Features include user authentication, product management, and secure payments. The admin panel allows easy item addition, editing, and deletion."
+              title="Full Stack Ecommerce"
+              description=" MERN-based Ecommerce Website with an Admin Panel, offering users an intuitive shopping experience. Features include user authentication, product management, and secure payments."
               ghLink="https://github.com/incruder1/ecommerce-fullStack"
               demoLink="https://ecommerce-application-z5pi.onrender.com/"
             />
