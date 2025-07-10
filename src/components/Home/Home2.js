@@ -2,11 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
+import { SiLeetcode } from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -19,42 +16,31 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I was drawn to programming by its challenges, thrill, and the gratification of turning lines of code into impactful solutions.🙂<br />
-            As an enthusiastic and dedicated open-source advocate, I possess a strong foundation in computer science and a diverse skill set that allows me to adapt to various programming languages. 
-            <br /> 
-            <b className="purple"> My language-agnostic mindset</b>, combined with a proactive learning attitude and effective problem-solving skills, enables me to thrive in collaborative environments.
-            <br /> 
-             I am committed to continuous growth and am eager to make a meaningful impact in the field of software engineering. 
+              I was drawn to programming by its challenges, thrill, and the
+              gratification of turning lines of code into impactful solutions.🙂
               <br />
-              {/* <br />I am fluent in Languages like */}
-              {/* <i>
-                <b className="purple"> C++, Javascript. </b>
-              </i> */}
-              {/* <br /> */}
+              As an enthusiastic and dedicated open-source advocate, I possess a
+              strong foundation in computer science and a diverse skill set that
+              allows me to adapt to various programming languages.
               <br />
-              My field of Interest's are building new &nbsp;
+              <b className="purple"> My language-agnostic mindset</b>, combined
+              with a proactive learning attitude and effective problem-solving
+              skills, enables me to thrive in collaborative environments.
+              <br />
+              I am committed to continuous growth and am eager to make a
+              meaningful impact in the field of software engineering.
+              <br />
+              <br />I love crafting scalable web apps, debugging the tricky
+              stuff, and turning ideas into clean, efficient code — with a
+              strong tilt towards <b className="purple">
+                Python, Node.js
+              </b>, <b className="purple">React.js</b>, and{" "}
+              <b className="purple">Next.js</b>.
               <i>
-                <b className="purple">Web Apps and exciting projects 
-                {/* </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.*/}
-                </b> 
+                <b className="purple">Web Apps and exciting projects</b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                 Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> Next.js and React.js </b>
-              </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -80,7 +66,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              
+
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/dev-johri-707a91138/"
@@ -91,7 +77,16 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              
+              <li className="social-icons">
+                <a
+                  href="https://leetcode.com/u/dev_johrii/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <SiLeetcode />
+                </a>
+              </li>
             </ul>
           </Col>
         </Row>
